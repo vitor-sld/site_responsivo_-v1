@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenishop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+            <div class="topMobile">
+            <h1>Tenishop</h1>
+            <div class="buttonMobile">
+            <button type="button" id="buttonNav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        </div>
+            <nav >
+                <ul id="navHeader">
+                    <li><a href="sobreLoja">Sobre a Loja</a></li>
+                    <li><a href="sobreLoja">Produtos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="slideTextos">
+            <div class="container">
+                <h4 class="selecionado">Frete grátis para compras a partir de R$100,00</h4>
+            </div>
+        </div>
+    </header>
+
+    <section class="sobreNos">
+        <div class="container">
+            <img src="https://placehold.co/600x400" alt="tela cinza">
+            <article class="txtSobreNos">
+                <h2>Conheça a TenisShop</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam magnam, pariatur iste officia enim
+                    ut atque cumque quo sed delectus, doloremque praesentium ullam amet. Eius magni nemo consequatur
+                    blanditiis omnis!</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="shop">
+        <div class="container">
+            <div>
+                <img src="https://placehold.co/300x300" alt="" srcset="">
+                <h2>item venda</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius a vero iste porro? Porro
+                    provident, </p>
+            </div>
+            <div>
+                <img src="https://placehold.co/300x300" alt="" srcset="">
+                <h2>item venda</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius a vero iste porro? Porro
+                    provident, </p>
+            </div>
+            <div>
+                <img src="https://placehold.co/300x300" alt="" srcset="">
+                <h2>item venda</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius a vero iste porro? Porro
+                    provident, </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos os direitos são reservados pela Tenishop &copy; </p>
+    </footer>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+        $('document').ready(function(){
+            $('#buttonNav').click(function(){
+                $('#navHeader').slideToggle()
+            })
+        })
+    </script>
+</body>
+
+</html>
